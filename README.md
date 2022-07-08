@@ -46,7 +46,7 @@ public class App {
 }
 ~~~
 
-<img src="./images/git_local_repo.png" width="49%" /><br/>
+<img src="./images/git_local_repo.png" width="43%" /><br/>
 
 config-service를 실행한 후 아래 경로로 접속을 하면 <br/>
 http://127.0.0.1:8888/ecommerce/default <br/>
