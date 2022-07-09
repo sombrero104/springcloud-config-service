@@ -79,7 +79,7 @@ http://127.0.0.1:8888/ecommerce/default <br/>
     ~~~
     테스트를 하기 위해 공통으로 사용하는 ecommerce.yml 파일을 수정한 후 <br/>
     git-local-repo 로컬 리파지토리에 커밋한다. <br/>
-    그리고 http://127.0.0.1:8000/user-service/actuator/refresh (POST) 요청을 보내면 <br/>
+    그리고 http://127.0.0.1:8000/user-service/actuator/refresh (POST) 로 요청을 보내면 <br/>
     아래와 같이 응답으로 어떤 내용이 변경되었는지 확인할 수 있으며, <br/>
     
     <img src="./images/request_actuator_refresh.png" width="41%" /><br/>
