@@ -61,7 +61,22 @@ http://127.0.0.1:8888/ecommerce/default <br/>
     - 재기동 없이 갱신 가능 
     - Application 상태, 모니터링 
     - Metric 수집을 위한 Http End point 제공 
-    - Spring Boot Actuator 의존성 추가 
+    - user-service에 Spring Boot Actuator 의존성 추가 <br/>
+    #### [user-service - pom.xml]
+    ~~~
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+    ~~~
+    #### [user-service - application.yml]
+    ~~~
+      management:
+        endpoints:
+          web:
+            exposure:
+              include: refresh, health, beans, busrefresh, info, metrics, prometheus
+    ~~~
 - Spring cloud bus 사용 (Actuator 보다 효율적)
 
 <br/><br/><br/><br/>
