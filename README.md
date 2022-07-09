@@ -53,7 +53,16 @@ http://127.0.0.1:8888/ecommerce/default <br/>
 아래와 같이 저장소에 추가했던 설정 파일 정보를 확인할 수 있다. <br/>
 
 <img src="./images/ecommerce_default.png" width="57%" /><br/>
+<br/><br/>
 
+## Configuration 갱신 방법
+- 서버 재기동 
+- Spring Boot Actuator refresh 
+    - 재기동 없이 갱신 가능 
+    - Application 상태, 모니터링 
+    - Metric 수집을 위한 Http End point 제공 
+    - Spring Boot Actuator 의존성 추가 
+- Spring cloud bus 사용 (Actuator 보다 효율적)
 
 <br/><br/><br/><br/>
 
