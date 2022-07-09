@@ -55,6 +55,36 @@ http://127.0.0.1:8888/ecommerce/default <br/>
 <img src="./images/ecommerce_default.png" width="57%" /><br/>
 <br/><br/>
 
+## user-service 에 연동 
+
+#### [pom.xml]
+~~~
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-config</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-bootstrap</artifactId>
+</dependency>
+~~~
+
+#### [bootstrap.yml]
+~~~
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:8888
+      name: ecommerce
+~~~
+
+#### [실행 결과 Bootstrap 로그]
+<img src="./images/config_service_bootstrap_log.png" width="60%" /><br/>
+
+#### [실행 결과 Config 정보 확인]
+<img src="./images/config_service_test_result.png" width="60%" /><br/>
+<br/><br/>
+
 ## Configuration 갱신 방법
 - 서버 재기동 
 - Spring Boot Actuator refresh 
