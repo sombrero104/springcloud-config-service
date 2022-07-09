@@ -77,7 +77,18 @@ http://127.0.0.1:8888/ecommerce/default <br/>
             exposure:
               include: refresh, health, beans, busrefresh, info, metrics, prometheus
     ~~~
-- Spring cloud bus 사용 (Actuator 보다 효율적)
+    테스트를 하기 위해 공통으로 사용하는 ecommerce.yml 파일을 수정한 후 <br/>
+    git-local-repo 로컬 리파지토리에 커밋한다. <br/>
+    그리고 http://127.0.0.1:8000/user-service/actuator/refresh (POST) 요청을 보내면 <br/>
+    아래와 같이 응답으로 어떤 내용이 변경되었는지 확인할 수 있으며, <br/>
+    
+    <img src="./images/request_actuator_refresh.png" width="41%" /><br/>
+    
+    user-service 를 재기동하지 않아도 해당 변경 내용이 반영된 것을 확인할 수 있다. <br/>
+    
+    <img src="./images/after_actuator_refresh_config.png" width="41%" /><br/>
+    
+- Spring cloud bus 사용 (Actuator 보다 효율적) <br/>
 
 <br/><br/><br/><br/>
 
