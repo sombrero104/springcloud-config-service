@@ -127,15 +127,15 @@ ecommerce.yml 파일을 프로파일을 다르게 하여 새로 추가한다. <b
 <img src="./images/config_profile.png" width="25%" /><br/>
 
 #### [gateway-service]
-<img src="./images/config_profile_gateway_service_01.png" width="25%" /><br/>
+<img src="./images/config_profile_gateway_service_01.png" width="26%" /><br/>
 
-<img src="./images/config_profile_gateway_service_02.png" width="60%" /><br/>
+<img src="./images/config_profile_gateway_service_02.png" width="61%" /><br/>
 
 #### [user-service]
 
-<img src="./images/config_profile_user_service_01.png" width="25%" /><br/>
+<img src="./images/config_profile_user_service_01.png" width="26%" /><br/>
 
-<img src="./images/config_profile_user_service_02.png" width="60%" /><br/>
+<img src="./images/config_profile_user_service_02.png" width="61%" /><br/>
 
 <br/><br/><br/><br/>
 
