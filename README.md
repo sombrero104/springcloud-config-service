@@ -123,6 +123,9 @@ spring:
 
 ## 프로파일 적용
 ecommerce.yml 파일을 프로파일을 다르게 하여 새로 추가한다. <br/>
+(테스트를 위해서 임시로 시크릿 값을 다르게 주었는데 <br/>
+인가/인증이 필요한 user-service API를 사용하기 위해서는 <br/>
+다시 gateway-service 와 user-service 의 시크릿 값을 동일하게 해줘야 한다.) <br/>
 
 <img src="./images/config_profile.png" width="25%" /><br/>
 
