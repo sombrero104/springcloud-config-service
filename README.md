@@ -124,15 +124,16 @@ spring:
     - 분산 시스템의 노드를 경량 메시지 브로커와 연결
     - 상태 및 구성에 대한 변경 사항을 연결된 노드에게 전달(Broadcast)
 <br/>
-#### * AMQP (Advanced Message Queuing Protocol)
-- 메시지 지향 미들웨어를 위한 개방형 표준 응용 계층 프로토콜
-- 메시지 지향, 큐잉, 라우팅(P2P, Publisher-Subscriber), 신뢰성, 보안
-- Erlang, RebbitMQ 에서 사용
 
-#### * Kafka 프로젝트
-- Apache Software Foundation 이 Scalar 언어로 개발한 오픈 소스 메시지 브로커 프로젝트
-- 분산형 스트리밍 플랫폼
-- 대용량의 데이터를 처리 가능한 메시징 시스템 
+> ### * AMQP (Advanced Message Queuing Protocol)
+> - 메시지 지향 미들웨어를 위한 개방형 표준 응용 계층 프로토콜
+> - 메시지 지향, 큐잉, 라우팅(P2P, Publisher-Subscriber), 신뢰성, 보안
+> - Erlang, RebbitMQ 에서 사용
+
+> #### * Kafka 프로젝트
+> - Apache Software Foundation 이 Scalar 언어로 개발한 오픈 소스 메시지 브로커 프로젝트
+> - 분산형 스트리밍 플랫폼
+> - 대용량의 데이터를 처리 가능한 메시징 시스템 
 
 <br/><br/>
 
