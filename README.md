@@ -135,6 +135,19 @@ spring:
 > - 분산형 스트리밍 플랫폼
 > - 대용량의 데이터를 처리 가능한 메시징 시스템 
 
+> #### RabbitMQ vs Kafka
+> - RabbitMQ
+>   - 메시지 브로커 
+>   - 초당 20+ 메시지를 소비자에게 전달
+>   - 메시지 전달 보장, 시스템 간 메시지 전달
+>   - 브로커, 소비자 중심 
+> - Kafka
+>   - 초당 100k+ 이상의 이벤트 처리
+>   - Pub/Sub, Topic 에 메시지 전달
+>   - Ack를 기다리지 않고 전달 가능
+>   - 생산자 중심 
+> https://www.confluent.io/blog/kafka-fastest-messaging-system/ <br/>
+
 <br/><br/>
 
 ## 프로파일 적용
