@@ -118,6 +118,8 @@ spring:
     
     <img src="./images/after_actuator_refresh_config.png" width="56%" /><br/>
     
+    하지만 서비스 마다 refresh 를 호출해줘야 하는 번거로움이 있다. <br/>
+    
 - Spring cloud bus 사용 (Actuator 보다 효율적) <br/>
     - 분산 시스템의 노드를 경량 메시지 브로커와 연결
     - 상태 및 구성에 대한 변경 사항을 연결된 노드에게 전달(Broadcast)
