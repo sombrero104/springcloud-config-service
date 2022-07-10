@@ -123,11 +123,11 @@ spring:
 
 ## 프로파일 적용
 ecommerce.yml 파일을 프로파일을 다르게 하여 새로 추가한다. <br/>
-(테스트를 위해서 임시로 프로파일을 다르게(시크릿 값을 다르게) 설정했는데 <br/>
-요청으로 받은 JWT 토큰으로 gateway-service 에서 인가(Authorization)를 하고 <br/>
-user-service 에서 인증(Authentication)을 하고 있기 때문에 <br/>
-인가/인증이 필요한 user-service API 를 사용하기 위해서는 <br/>
-gateway-service 와 user-service 의 시크릿 값이 같도록 같은 프로파일을 사용해야 한다.) <br/>
+> 테스트를 위해서 임시로 프로파일을 다르게(시크릿 값을 다르게) 설정했는데 <br/>
+> 요청으로 받은 JWT 토큰으로 gateway-service 에서 인가(Authorization)를 하고 <br/>
+> user-service 에서 인증(Authentication)을 하고 있기 때문에 <br/>
+> 인가/인증이 필요한 user-service API 를 사용하기 위해서는 <br/>
+> gateway-service 와 user-service 의 시크릿 값이 같도록 같은 프로파일을 사용해야 한다. <br/>
 
 <img src="./images/config_profile.png" width="25%" /><br/>
 
