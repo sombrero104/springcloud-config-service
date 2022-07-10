@@ -133,9 +133,9 @@ ecommerce.yml 파일을 프로파일을 다르게 하여 새로 추가한다. <b
 
 #### [user-service]
 
-<img src="./images/config_profile_user_service_01.png" width="26%" /><br/>
+<img src="./images/config_profile_user_service_01.png" width="27%" /><br/>
 
-<img src="./images/config_profile_user_service_02.png" width="61%" /><br/>
+<img src="./images/config_profile_user_service_02.png" width="62%" /><br/>
 
 <br/><br/><br/><br/>
 
