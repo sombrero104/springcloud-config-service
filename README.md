@@ -146,6 +146,7 @@ spring:
 >   - Pub/Sub, Topic 에 메시지 전달
 >   - Ack를 기다리지 않고 전달 가능
 >   - 생산자 중심 
+> 
 > https://www.confluent.io/blog/kafka-fastest-messaging-system/ <br/>
 
 <br/><br/>
