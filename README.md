@@ -141,6 +141,22 @@ ecommerce.yml 파일을 프로파일을 다르게 하여 새로 추가한다. <b
 <img src="./images/config_profile_user_service_01.png" width="27%" /><br/>
 
 <img src="./images/config_profile_user_service_02.png" width="62%" /><br/>
+<br/><br/>
+
+## 깃헙 원격 저장소 사용 시 
+~~~
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+#          uri: file:///Users/sombrero104/workspace/git-local-repo
+          uri: https://github.com/sombrero104/springcloud-config.git
+#          username:
+#          password:
+~~~
 
 <br/><br/><br/><br/>
 
