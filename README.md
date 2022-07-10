@@ -119,6 +119,23 @@ spring:
     <img src="./images/after_actuator_refresh_config.png" width="56%" /><br/>
     
 - Spring cloud bus 사용 (Actuator 보다 효율적) <br/>
+<br/><br/>
+
+## 프로파일 적용
+ecommerce.yml 파일을 프로파일을 다르게 하여 새로 추가한다. <br/>
+
+<img src="./images/config_profile.png" width="50%" /><br/>
+
+#### [gateway-service]
+<img src="./images/config_profile_gateway_service_01.png" width="50%" /><br/>
+
+<img src="./images/config_profile_gateway_service_02.png" width="70%" /><br/>
+
+#### [user-service]
+
+<img src="./images/config_profile_user_service_01.png" width="50%" /><br/>
+
+<img src="./images/config_profile_user_service_02.png" width="70%" /><br/>
 
 <br/><br/><br/><br/>
 
