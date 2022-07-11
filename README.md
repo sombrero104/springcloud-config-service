@@ -52,7 +52,7 @@ config-service를 실행한 후 아래 경로로 접속을 하면 <br/>
 http://127.0.0.1:8888/ecommerce/default <br/>
 아래와 같이 저장소에 추가했던 설정 파일 정보를 확인할 수 있다. <br/>
 
-<img src="./images/ecommerce_default.png" width="57%" /><br/>
+<img src="./images/ecommerce_default.png" width="58%" /><br/>
 <br/><br/>
 
 ## user-service 에 연동 
