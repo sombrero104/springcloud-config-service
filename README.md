@@ -191,7 +191,7 @@ spring:
           exposure:
             include: refresh, health, beans, httptrace, busrefresh, info, metrics, prometheus
     ~~~
-    #### [토큰 시크릿 값 변경 후 user-service 에서 busrefresh 호출 시]
+    #### [토큰 시크릿 값 변경 후 user-service 에서 busrefresh 호출 결과]
     <img src="./images/bus1_changed_application_yml.png" width="29%" /><br/>
     
     <img src="./images/bus1_rabbitmq_request_busrefresh_at_user_service.png" width="61%" /><br/>
@@ -200,7 +200,7 @@ spring:
     
     <img src="./images/bus1_changed_gateway_service_config.png" width="59%" /><br/>
     
-    #### [토큰 시크릿 값 변경 후 gateway-service 에서 busrefresh 호출 시]
+    #### [토큰 시크릿 값 변경 후 gateway-service 에서 busrefresh 호출 결과]
     <img src="./images/bus2_changed_application_yml_02.png" width="30%" /><br/>
         
     <img src="./images/bus2_rabbitmq_request_busrefresh_at_gateway_service.png" width="60%" /><br/>
