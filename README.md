@@ -126,6 +126,44 @@ spring:
     - Spring Cloud Bus 에 연결되어 있기만 하면 어떤 서비스라도 /busrefresh (POST) 를 호출할 경우 <br/>
         Spring Cloud Bus 에 연결되어 있는 다른 서비스에도 모두 업데이트가 된다. <br/>
     - RabbitMQ 설치 <br/> 
+    https://www.rabbitmq.com/install-homebrew.html <br/> 
+    ~~~
+    $ brew list  
+    $ brew update
+    $ brew install rabbitmq
+    ~~~
+    ~~~
+    ...
+    Management Plugin enabled by default at http://localhost:15672
+    
+    Bash completion has been installed to:
+      /usr/local/etc/bash_completion.d
+    
+    To restart rabbitmq after an upgrade:
+      brew services restart rabbitmq
+    Or, if you don't want/need a background service you can just run:
+      CONF_ENV_FILE="/usr/local/etc/rabbitmq/rabbitmq-env.conf" /usr/local/opt/rabbitmq/sbin/rabbitmq-server
+    ==> Summary
+    🍺  /usr/local/Cellar/rabbitmq/3.10.6: 1,399 files, 30.6MB
+    ==> Running `brew cleanup rabbitmq`...
+    Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+    Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+    ==> Caveats
+    ==> rabbitmq
+    Management Plugin enabled by default at http://localhost:15672
+    
+    Bash completion has been installed to:
+      /usr/local/etc/bash_completion.d
+    
+    To restart rabbitmq after an upgrade:
+      brew services restart rabbitmq
+    Or, if you don't want/need a background service you can just run:
+      CONF_ENV_FILE="/usr/local/etc/rabbitmq/rabbitmq-env.conf" /usr/local/opt/rabbitmq/sbin/rabbitmq-server
+    ~~~
+    ~~~
+    $ export PATH=$PATH:/usr/local/sbin
+    ~~~
+    RabbitMQ 관리자 접속 http://127.0.0.1:15672 (guest/guest) <br/> 
     - AMQP 사용 <br/> 
     #### [config-service, user-service, gateway-service - pom.xml]
     ~~~
