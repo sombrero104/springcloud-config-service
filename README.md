@@ -126,7 +126,7 @@ spring:
     - Spring Cloud Bus 에 연결되어 있기만 하면 어떤 서비스라도 /busrefresh (POST) 를 호출할 경우 <br/>
         Spring Cloud Bus 에 연결되어 있는 다른 서비스에도 모두 업데이트가 된다. <br/>
     - AMQP 사용 <br/> 
-    #### [config-service - pom.xml]
+    #### [config-service, user-service, gateway-service - pom.xml]
     ~~~
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -137,12 +137,20 @@ spring:
       <artifactId>spring-cloud-starter-bus-amqp</artifactId>
     </dependency>
     ~~~
-    #### [user-service, gateway-service - pom.xml]
+    #### [config-service, user-service, gateway-service - application.yml]
     ~~~
-    <dependency>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-bus-amqp</artifactId>
-    </dependency>
+    spring:
+      rabbitmq:
+        host: 127.0.0.1
+        port: 5672
+        username: guest
+        password: guest
+  
+    management:
+      endpoints:
+        web:
+          exposure:
+            include: refresh, health, beans, httptrace, busrefresh, info, metrics, prometheus
     ~~~
 <br/>
 
