@@ -168,7 +168,7 @@ spring:
     
     <img src="./images/bus2_changed_user_service_config_02.png" width="60%" /><br/>
     
-    <img src="./images/bus2_changed_gateway_service_config_02.png" width="61%" /><br/>
+    <img src="./images/bus2_changed_gateway_service_config_02.png" width="62%" /><br/>
     
 <br/>
 
