@@ -125,6 +125,7 @@ spring:
     - 상태 및 구성에 대한 변경 사항을 연결된 노드에게 전달(Broadcast)
     - Spring Cloud Bus 에 연결되어 있기만 하면 어떤 서비스라도 /busrefresh (POST) 를 호출할 경우 <br/>
         Spring Cloud Bus 에 연결되어 있는 다른 서비스에도 모두 업데이트가 된다. <br/>
+    - RabbitMQ 설치 <br/> 
     - AMQP 사용 <br/> 
     #### [config-service, user-service, gateway-service - pom.xml]
     ~~~
