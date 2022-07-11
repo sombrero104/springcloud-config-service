@@ -16,4 +16,14 @@ spring:
 #          uri: https://github.com/sombrero104/springcloud-config.git
 #          username:
 #          password:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health, beans, httptrace, busrefresh, info, metrics, prometheus
