@@ -273,6 +273,32 @@ spring:
 #          username:
 #          password:
 ~~~
+<br/><br/>
+
+## Configuration 암호화 
+- Symmetric Encryption (Shared)
+    - Using the same key
+- Asymmetric Encryption (RSA Keypair)
+    - Private and Public Key
+    - Using Java keytool
+    
+### Symmetric Encryption (대칭 암호화)
+#### [pom.xml]
+~~~
+<!-- bootstrap 의존성을 추가해야 bootstrap.yml 설정 파일을 읽어온다. -->
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-bootstrap</artifactId>
+</dependency>
+~~~
+#### [bootstrap.yml]
+~~~
+encrypt:
+  key: aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbb111111222222
+~~~
+
+http://127.0.0.1:8888/encrypt (POST) <br/>
+http://127.0.0.1:8888/decrypt (POST) <br/>
 
 <br/><br/><br/><br/>
 
