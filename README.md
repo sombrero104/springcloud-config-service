@@ -296,11 +296,16 @@ spring:
 #### [bootstrap.yml]
 ~~~
 encrypt:
-  key: aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbb111111222222
+  key: abcdefghijklmnopqrstuvwxyz0123456789
 ~~~
 
 http://127.0.0.1:8888/encrypt (POST) <br/>
+
+<img src="./images/symmetric_encrypt.png" width="57%" /><br/>
+
 http://127.0.0.1:8888/decrypt (POST) <br/>
+
+<img src="./images/symmetric_decrypt.png" width="57%" /><br/>
 
 <br/><br/><br/><br/>
 
