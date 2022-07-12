@@ -308,5 +308,12 @@ http://127.0.0.1:8888/decrypt (POST) <br/>
 
 <img src="./images/symmetric_decrypt.png" width="57%" /><br/>
 
+#### [암호화한 Configuration 값 추가]
+'{cipher}'를 앞에 붙이면 암호화된 값으로 인식한다. <br/>
+<img src="./images/symmetric_encrypt_config.png" width="57%" /><br/>
+
+#### [config-server 에서 복호화해서 제공]
+<img src="./images/symmetric_config_server_decrypt.png" width="57%" /><br/>
+
 <br/><br/><br/><br/>
 
