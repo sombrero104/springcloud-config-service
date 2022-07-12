@@ -162,6 +162,8 @@ spring:
     ~~~
     ~~~
     $ export PATH=$PATH:/usr/local/sbin
+    혹은 .bash_profile의 PATH에 '/usr/local/sbin' 추가 후 적용. (source .bash_profile)
+    rabbitmq-server 명령으로 실행. 
     ~~~
     RabbitMQ 관리자 접속 http://127.0.0.1:15672 (guest/guest) <br/> 
     - AMQP 사용 <br/> 
