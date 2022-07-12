@@ -298,11 +298,11 @@ spring:
 encrypt:
   key: abcdefghijklmnopqrstuvwxyz0123456789
 ~~~
-
+#### [암호화]
 http://127.0.0.1:8888/encrypt (POST) <br/>
 
 <img src="./images/symmetric_encrypt.png" width="57%" /><br/>
-
+#### [복호화]
 http://127.0.0.1:8888/decrypt (POST) <br/>
 
 <img src="./images/symmetric_decrypt.png" width="57%" /><br/>
