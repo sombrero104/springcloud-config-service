@@ -1,3 +1,9 @@
 encrypt:
-  key: abcdefghijklmnopqrstuvwxyz0123456789
+# [Symmetric Encryption]
+#  key: abcdefghijklmnopqrstuvwxyz0123456789
+# [Asymmetric Encryption]
+  key-store:
+    location: file://${user.home}/workspace/keystore/apiEncryptionKey.jks
+    password: tea1234
+    alias: apiEncryptionKey
 

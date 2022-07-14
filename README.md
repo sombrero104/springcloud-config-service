@@ -325,6 +325,14 @@ $ keytool -genkeypair -alias apiEncryptionKey -keyalg RSA
     -dname "CN=Sombrero 104, OU=API Development, O=sombrero104.me, L=Seoul, C=KR"
     -keypass "tea1234" -keystore apiEncryptionKey.jks -storepass "tea1234"
 ~~~
+#### [bootstrap.yml]
+~~~
+encrypt:
+  key-store:
+    location: file://${user.home}/workspace/keystore/apiEncryptionKey.jks
+    password: tea1234
+    alias: apiEncryptionKey
+~~~
 
 <br/><br/><br/><br/>
 
