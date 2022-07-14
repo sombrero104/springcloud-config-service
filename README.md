@@ -315,6 +315,16 @@ http://127.0.0.1:8888/decrypt (POST) <br/>
 
 #### [Configuration 사용 시에는 config-service 에서 복호화해서 제공]
 <img src="./images/symmetric_config_server_decrypt.png" width="65%" /><br/>
+<br/>
+ 
+### Asymmetric Encryption (비대칭 암호화) 
+- Public, Private Key 생성 (JDK keytool 이용)
+~~~
+$ mkdir ${user.home}/workspace/keystore
+$ keytool -genkeypair -alias apiEncryptionKey -keyalg RSA 
+    -dname "CN=Sombrero 104, OU=API Development, O=sombrero104.me, L=Seoul, C=KR"
+    -keypass "tea1234" -keystore apiEncryptionKey.jks -storepass "tea1234"
+~~~
 
 <br/><br/><br/><br/>
 
