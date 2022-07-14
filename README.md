@@ -333,6 +333,21 @@ encrypt:
     password: tea1234
     alias: apiEncryptionKey
 ~~~
+#### [암호화]
+http://127.0.0.1:8888/encrypt (POST) <br/>
+
+<img src="./images/asymmetric_encrypt.png" width="57%" /><br/>
+
+#### [복호화]
+http://127.0.0.1:8888/decrypt (POST) <br/>
+
+<img src="./images/asymmetric_decrypt.png" width="57%" /><br/>
+
+#### [암호화한 Configuration 값 추가]
+
+<img src="./images/asymmetric_encrypt_config_01.png" width="57%" /><br/>
+
+<img src="./images/asymmetric_encrypt_config_02.png" width="57%" /><br/>
 
 <br/><br/><br/><br/>
 
