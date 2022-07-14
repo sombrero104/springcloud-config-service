@@ -345,9 +345,9 @@ http://127.0.0.1:8888/decrypt (POST) <br/>
 
 #### [암호화한 Configuration 값 추가]
 
-<img src="./images/asymmetric_encrypt_config_01.png" width="67%" /><br/>
+<img src="./images/asymmetric_encrypt_config_01.png" width="75%" /><br/>
 
-<img src="./images/asymmetric_encrypt_config_02.png" width="67%" /><br/>
+<img src="./images/asymmetric_encrypt_config_02.png" width="75%" /><br/>
 
 <br/><br/><br/><br/>
 
